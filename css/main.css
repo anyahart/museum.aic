@@ -1,0 +1,288 @@
+body{
+   font-family: calluna-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+header {
+  
+  background-color: #ffffff;
+}
+
+
+
+.hero{
+    padding-bottom: 3rem;
+}
+
+
+
+header button img{
+    
+    height:  2rem;
+    padding-left: 3rem;
+}
+
+
+
+header .logo{
+    height: 4rem;
+  padding-left: 2rem;
+}
+
+
+header .search{
+    
+    height:  2rem;
+    padding-right: 3rem;
+}
+
+
+
+  header .menu {
+    /* position menu on top, full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    /* position content in vertical center */
+    flex-direction: column;
+    justify-content: center;
+    /* add styling details */
+    padding: 2rem;
+    background-color: #212121;
+  }
+
+
+  header .menu li {
+    /* override Foundation class and align content on left */
+    justify-content: flex-start !important;
+    /* add styling details */
+    font-size: 2rem;
+  }
+
+
+  header .menu li a {
+    /* add styling details */
+    color: #ffffff;
+  }
+
+
+  header button {
+    cursor: pointer;
+  }
+
+
+
+  header button {
+    position: relative;
+    z-index: 2;
+  }
+
+
+  header button.btnToggle {
+    color: #ffffff;
+  }
+
+
+
+    .layer-text{
+        display: grid;
+        place-items: center;
+    }
+
+
+
+  .layer-text * {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    
+
+    .layer-text h2,
+    .layer-text p{
+        color: #FDFDFD;
+        text-align: center;
+    }
+    
+
+.layer-text .inner-grid{
+    text-align: center;
+    padding: 3rem;
+    background-color: rgba(0,0,0,.35);
+     color: #FDFDFD;
+    
+ 
+}
+
+h2{
+   font-family: calluna-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+    text-align: center;
+    color: #7C746E;
+    margin-bottom: 2rem;
+    
+}
+ 
+
+h4{
+    font-family: linotype-sabon,sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: #ffff;
+}
+
+
+.exhibitions h4{
+    font-family: linotype-sabon,sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: #333333;
+}
+
+
+
+h5{
+    font-family: linotype-sabon,sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: #333333;
+    
+}
+
+
+h6{
+    font-family: calluna-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+    text-align: center;
+    color: #008085;
+    margin-bottom: 3rem;
+   
+}
+
+
+
+.exhibitions{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+
+.exhibitions h2{
+    
+    margin-bottom: 0;
+    
+}
+    
+.button .large{
+    
+    padding-top: 2rem;
+}
+
+
+
+.hilights{ 
+    padding: 2em;
+}
+
+
+.orbit-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 1rem;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: #fefefe;
+    text-align: center;
+}
+
+
+ .hours{
+        
+     padding-top: 2rem;
+       
+ }
+
+    
+.hours .button{
+        
+     background-color: #B50938;
+     width: 25vw;
+}
+
+
+.exhibitions{
+    margin-bottom:  2rem;
+}
+
+
+.highlights{
+   
+    margin: 2rem;
+}
+
+
+.interactive exhibits{
+   margin:  2rem;
+}
+
+
+.interative{
+    padding: 1rem;
+    text-align: left;
+            
+ }
+        
+
+hr {
+    clear: both;
+    max-width: 50rem;
+    height: 0;
+    margin: 2rem auto;
+    border-top: 0;
+    border-right: 2;
+    border-bottom: 1px solid #cacaca;
+    border-left: 2;
+}
+
+
+   
+footer{
+    
+    background-color: #333333;
+   color: aliceblue;
+    padding: 3rem;
+}
+
+
+footer a{
+    
+    color: aliceblue;
+
+}
+
+
+
+address{
+    
+    color: #AEAEAF;
+}
+
+
+
+.footer img map{
+    display: inline-block;
+    vertical-align:inherit;
+    max-width: 110%;
+    height: auto;
+   padding-left: 6rem;
+}
+
+
+
